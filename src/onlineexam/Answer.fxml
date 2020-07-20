@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="onlineexam.AnswerController">
+   <children>
+      <Button fx:id="btnBack" layoutX="64.0" layoutY="545.0" mnemonicParsing="false" onAction="#he" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: rgb(140, 40, 10);" text="back" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tblList" layoutX="240.0" layoutY="40.0" prefHeight="671.0" prefWidth="768.0" style="-fx-background-color: rgb(255,255,220);">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

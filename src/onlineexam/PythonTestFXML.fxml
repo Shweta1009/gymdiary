@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1204.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="onlineexam.PythonTestFXMLController">
+   <children>
+      <Label fx:id="lblQues" layoutX="27.0" layoutY="44.0" prefHeight="313.0" prefWidth="950.0" style="-fx-border-color: #00283a;" text="Label">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="btnNext" layoutX="272.0" layoutY="539.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#he" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #00283a;" text="Next" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="rb3" layoutX="120.0" layoutY="430.0" mnemonicParsing="false" text="RadioButton" textFill="#00283a">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rb2" layoutX="120.0" layoutY="398.0" mnemonicParsing="false" text="RadioButton" textFill="#00283a">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rb4" layoutX="120.0" layoutY="467.0" mnemonicParsing="false" text="RadioButton" textFill="#00283a">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rb1" layoutX="120.0" layoutY="364.0" mnemonicParsing="false" text="RadioButton" textFill="#00283a">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="lblTimer21" alignment="CENTER" layoutX="1081.0" layoutY="150.0" prefHeight="40.0" prefWidth="95.0" text="timer">
+         <font>
+            <Font name="Algerian" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTimer11" layoutX="1134.0" layoutY="194.0" prefHeight="40.0" prefWidth="51.0" text="timer">
+         <font>
+            <Font name="Bookman Old Style Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTimer21" layoutX="1110.0" layoutY="194.0" prefHeight="40.0" prefWidth="29.0" text="timer">
+         <font>
+            <Font name="Bookman Old Style Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuesNo" layoutX="329.0" layoutY="14.0" prefHeight="25.0" prefWidth="136.0" text="Label">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

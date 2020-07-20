@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="onlineexam.CUserAddFXMLController">
+   <children>
+      <TextField fx:id="txtEmail" layoutX="154.0" layoutY="83.0" minHeight="35.0" prefHeight="25.0" prefWidth="248.0" promptText="Username" />
+      <Button fx:id="btnBack" cancelButton="true" layoutX="154.0" layoutY="281.0" minHeight="35.0" mnemonicParsing="false" onAction="#he" prefHeight="25.0" prefWidth="248.0" text="Back" />
+      <Button fx:id="btnAdd" defaultButton="true" layoutX="154.0" layoutY="231.0" minHeight="35.0" mnemonicParsing="false" onAction="#he" prefHeight="25.0" prefWidth="248.0" text="Add" />
+      <PasswordField fx:id="txtpass" layoutX="154.0" layoutY="157.0" prefHeight="28.0" prefWidth="248.0" promptText="pass" />
+   </children>
+</AnchorPane>

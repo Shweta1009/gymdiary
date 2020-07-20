@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1276.0" style="-fx-background-color: #00283a;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="onlineexam.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnStart" layoutX="359.0" layoutY="561.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#he" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #1bcca3;" text="C" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <effect>
+            <Lighting bumpInput="$null" diffuseConstant="1.11" specularConstant="0.18">
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="btnUser" layoutX="545.0" layoutY="561.0" mnemonicParsing="false" onAction="#he" prefHeight="40.0" prefWidth="150.0" style="-fx-background-size: cover; -fx-background-color: #1bcca3;" text="Python" textFill="WHITE">
+         <effect>
+            <Lighting bumpInput="$null" diffuseConstant="1.12" specularConstant="0.14">
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Lucida Sans Regular" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblStart" layoutX="360.0" layoutY="433.0" prefHeight="57.0" prefWidth="331.0" style="-fx-text-border-color: white;" text="   START     TEST" textAlignment="CENTER" textFill="#1bcca3">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="46.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect></Label>
+      <ImageView fitHeight="346.0" fitWidth="407.0" layoutX="427.0" layoutY="5.0" pickOnBounds="true" style="-fx-image: url('images/codeknack.jpg');">
+         <image>
+            <Image url="@../images/codeknack.jpg" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect></ImageView>
+      <ImageView fitHeight="346.0" fitWidth="425.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('images/avesh.jpg');">
+         <image>
+            <Image url="@../images/avesh.jpg" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <Hyperlink fx:id="btnAdmin" layoutX="68.0" layoutY="359.0" onAction="#he" text="admin" />
+      <Label fx:id="lblRules" layoutX="892.0" layoutY="19.0" prefHeight="659.0" prefWidth="371.0" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <Lighting bumpInput="$null" diffuseConstant="1.7" specularConstant="0.28" specularExponent="30.23" surfaceScale="0.0">
+         <light>
+            <Light.Distant />
+         </light>
+      </Lighting>
+   </effect>
+</AnchorPane>

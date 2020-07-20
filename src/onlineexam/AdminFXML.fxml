@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: tan;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="onlineexam.AdminFXMLController">
+   <children>
+      <Button fx:id="btnBack" cancelButton="true" layoutX="35.0" layoutY="620.0" mnemonicParsing="false" onAction="#he" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: rgb(140, 40, 10);" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btnDelete" layoutX="35.0" layoutY="568.0" mnemonicParsing="false" onAction="#he" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: rgb(140, 40, 10);" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <TableView fx:id="tblList" layoutX="210.0" layoutY="10.0" prefHeight="671.0" prefWidth="768.0" style="-fx-background-color: rgb(255,255,220);">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+      <Button fx:id="btnAdd" layoutX="34.0" layoutY="515.0" mnemonicParsing="false" onAction="#he" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: rgb(140, 40, 10);" text="Add" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnResult" layoutX="35.0" layoutY="465.0" mnemonicParsing="false" onAction="#he" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: rgb(140, 40, 10);" text="result" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUser" layoutX="35.0" layoutY="412.0" mnemonicParsing="false" onAction="#he" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: rgb(140, 40, 10);" text="users" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
